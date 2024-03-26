@@ -1,0 +1,475 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Serif TC", serif;
+    font-family: "Stardos Stencil", system-ui;
+    font-style: normal;
+}
+
+body {
+    clear: both;
+    position: relative;
+    margin: 0;
+    background: #f8f8f8;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    padding: 0;
+    background-image: url('../img/c-bg.jpg');
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    height: 60px;
+    line-height: 60px;
+}
+
+.floatright-header {
+    float: right;
+    position: fixed;
+    right: 3%;
+    top: 20px;
+    z-index: 998;
+    transition: all 1s;
+}
+
+.floatright-header a {
+    align-items: center;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    border: 1px solid #ad9b6d;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #ad9b6d;
+    font-size: 15px;
+    transition: 0.9s;
+}
+
+.header-appear {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ad9b6d;
+    z-index: 997;
+    opacity: 1;
+    transition: all 1s;
+}
+
+.menubtn {
+    display: block;
+    position: absolute;
+    outline: none;
+    border: 1px solid #193537;
+    background-color: #193537;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.menubtntopbar {
+    display: block;
+    position: absolute;
+    outline: none;
+    border: 1px solid #193537;
+    background-color: #193537;
+    height: 100px;
+    width: 100px;
+    top: 480px;
+    left: 40px;
+    position: relative;
+}
+
+.menubtn:hover {
+    cursor: pointer;
+}
+
+/* -------------------------------- */
+.menulocate {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    cursor: pointer;
+}
+
+h3 {
+    position: absolute;
+    top: 30px;
+    left: -4px;
+    font-size: 20px;
+    color: #e1e1e1;
+}
+
+.bar1,
+.bar3 {
+    width: 50px;
+    height: 1px;
+    background-color: #e1e1e1;
+    margin: 10px 0;
+    transition: 0.4s;
+}
+
+.bar2 {
+    width: 35px;
+    height: 1px;
+    background-color: #e1e1e1;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.change .bar1 {
+    width: 35px;
+    margin-left: 7.5px;
+}
+
+.change .bar2 {
+    width: 50px;
+}
+
+.change .bar3 {
+    width: 35px;
+    margin-left: 7.5px;
+}
+
+/* -------------------------------- */
+.header-appear em {
+    position: absolute;
+    top: 5px;
+    left: 45.5%;
+    display: block;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.floatright-header a:hover {
+    background-color: #193537;
+    color: #fff;
+}
+
+.mainbar {
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* -------------------------------- */
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #193537;
+    overflow-x: hidden;
+    transition: width 0.7s;
+}
+
+.overlay a {
+    text-decoration: none;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+    z-index: 1000;
+    font-size: bold;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #b2a789;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    transition: all 1s;
+}
+.overlayleft{
+    width: 50%;
+    display: block;
+    float:left;
+}
+.overlayleft .overlay-content {
+    position: relative;
+    font-size:19px;
+    top: 18%;
+    width: 25%;
+    margin:auto;
+    text-align: center;
+    margin-top: 24%;
+    letter-spacing: 5px;
+}
+.overlayleft .overlay-img img{
+
+    width:250px;
+    position: absolute;
+    top:20%;
+    left:18.3%;
+}
+.overlay-content ul li{
+    margin:auto;
+    text-align:none;
+    padding-bottom:10px;
+    list-style: none;
+}
+.overlay-content ul li a{
+    height: 40px;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.overlayright{
+    height:100%;
+    width:50%;
+    float:right;
+    display: block;
+    position: relative;
+}
+.overlayright img{
+    position: absolute;
+}
+
+/* -------------------------------- */
+
+.bannerarea{
+    width: 100%;
+}
+.bannerarea .banner-map{
+    width:100%;
+    height:396px;
+    background-image: url(../img/banner-contact.jpg);
+}
+
+/* -------------------------------- */
+.contact{
+    width:70%;
+    height: 690px;
+    margin:auto;
+    position: relative;
+    opacity: 0;
+    transition: all 1.5s;
+}
+.contact-title{
+    width:100%;
+    text-align: left;
+    font-size: 15px;
+    padding: 20px 10px;
+    letter-spacing: 1px;
+    border-bottom: 2px #ad9b6d solid;
+}
+.title-red{
+    color: #ad9b6d;
+    display: inline;
+}
+.contact em {
+    display: block;
+    letter-spacing: 3px;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 19px;
+    letter-spacing: 3px;
+    color: #ad9b6d;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.select-problem{
+    display: block;
+    width:100%;
+    font-size: 20px;
+    padding: 10px;
+    float:left;
+}
+.problemoption{
+    padding:3px 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.select-problemleft{
+    float: left;
+    width: 50%;
+}
+.select-problemright{
+    float:left;
+    width:50%;
+}
+.select-gender{
+    float: left;
+    width: 50%;
+}
+.nametext{
+    padding:5px;
+    padding-right: 70%;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.teltext{
+    padding:5px;
+    padding-right: 70%;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.mailtext{
+    padding:5px;
+    padding-right: 85%;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.textarea{
+    width:99%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.contactbtn2 a {
+    position: absolute;
+    border: 1px solid #e1e1e1;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    padding: 10px 20px;
+    left: 10px;
+    bottom: 0px;
+}
+
+.contactbtn2 a:hover {
+    background-color: #193537;
+    color: #f8f8f8;
+    transition: all 1s;
+}
+/* -------------------------------- */
+
+.socialslide {
+    position: absolute;
+    position: fixed;
+    color: #ad9b6d;
+    top: 40%;
+    right: 15px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.socialslide em {
+    writing-mode: vertical-rl;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.socialslide a {
+    margin-top: 10px;
+    color: #ad9b6d;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.socialslide a:hover {
+    color: #193537;
+    transition: all 0.8s;
+    font-size: bold;
+}
+
+/* -------------------------------- */
+.fade-move{
+    height:200px;
+    transition: all 1s;
+}
+/* -------------------------------- */
+footer {
+    clear: both;
+    margin-top: 100px;
+}
+.footarea {
+    width: 90%;
+    border-top: 2px #ad9b6d solid;
+    height: 160px;
+    margin: auto;
+    position: relative;
+}
+.foot-img{
+    position: absolute;
+    top:20%;
+    left:44.5%;
+}
+.contactbtn a {
+    position: absolute;
+    border: 1px solid #e1e1e1;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    padding: 10px 20px;
+    left: 0px;
+    bottom: 50px;
+}
+
+.contactbtn a:hover {
+    background-color: #193537;
+    color: #f8f8f8;
+    transition: all 1s;
+}
+
+.footerright {
+    color: #1f1f1f;
+    top: 40%;
+    right: 15px;
+    align-items: center;
+    display: flex;
+    float: right;
+}
+
+.footerright em {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.footerright a {
+    margin-top: 10px;
+    color: #ad9b6d;
+    display: block;
+    padding-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+.footerright a:hover {
+    color: #193537;
+    transition: all 0.8s;
+    font-size: bold;
+}
+
+/* -------------------------------- */

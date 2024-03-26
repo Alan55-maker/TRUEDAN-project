@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>珍煮丹TRUEDAN</title>
+    <link rel="icon" href="./img/truedan.ico">
+    <link rel="stylesheet" href="css/style-cart.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- ------------------------------------------------------------ -->
+        <!-- <div class="topbar">
+            <div class="topbar-logo">
+                <a href="">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="menubtntopbar" onmouseover="changemenu(this)" onmouseout="changemenu(this)">
+                    <div class="menulocate" onclick="openNav()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                        <h3>MENU</h3>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="floatright-header">
+            <a href="store-information.html"><i class="fa-solid fa-shop"></i> 尋找門市</a>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> 購物車</a>
+        </div>
+        <div class="header-appear">
+            <div class="menubtn" onmouseover="changemenu(this)" onmouseout="changemenu(this)">
+                <div class="menulocate" onclick="openNav()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <h3>MENU</h3>
+                </div>
+            </div>
+            <em>
+                TRUEDAN<br>
+                ORIGINAL
+            </em>
+        </div>
+        <div id="myNav" class="overlay">
+            <div class="overlayleft">
+                <div class="menubtn" id="closebtn" onmouseover="changemenu(this)" onmouseout="changemenu(this)">
+                    <div class="menulocate" onclick="closeNav()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                        <h3>MENU</h3>
+                    </div>
+                </div>
+                <div class="overlay-img">
+                    <img src="img/logo-foot.png" alt="">
+                </div>
+                <div class="overlay-content">
+                    <ul>
+                        <li><a href="menu.html">[最新消息]</a></li>
+                        <li><a href="story.html">[品牌故事]</a></li>
+                        <li><a href="drinks.html">[飲品菜單]</a></li>
+                        <li><a href="store-information.html">[門市據點]</a></li>
+                        <li><a href="news.html">[媒體報導]</a></li>
+                        <li><a href="contact.html">[聯絡我們]</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="overlayright">
+                <img src="img/middlebar-img/menubg.jpg" alt="" height="100%">
+            </div>
+        </div>
+    </header>
+    <!-- ------------------------------------------------------------ -->
+    <div class="socialslide">
+        <em>follow us</em>
+        <a href="https://www.facebook.com/truedantw/">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/truedantw/">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://youtube.com/@truedan9528?si=VatrfhpE8zeQWaGp">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    </div>
+    <!-- ------------------------------------------------------------ -->
+    <div class="bannerarea">
+        <div class="banner-map">
+
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <!-- ------------------------------------------------------------ -->
+    <div class="fade-move"></div>
+    <div class="drinksarea">
+        <br><br>
+        <em>
+            THE CART
+        </em>
+        <h2>
+            [購物車]
+        </h2>
+        <div class="drinksform">
+            <a href="">
+                <div class="drinksform-img form01">
+
+                </div>
+            </a>
+            <div class="drinksform-text">
+                <h2>
+                    黑糖珍珠鮮奶
+                </h2>
+                <em>
+                    Craftsman’s Brown Sugar Series
+                    <div class="drinkcommentary">
+                        <br>
+                        蟬聯銷售排行榜第一，代表性0.85cm祖傳黑糖蜜製珍珠加上香濃鮮奶，完美交融，香濃不膩
+                    </div>
+                    <br>
+                    <div class="gotocart">
+                        <button class="customgotocart" onclick="delete01()">刪除訂單</button>
+                    </div>
+                    <div class="drinkbtn">
+                        <button class="custom" onclick="minus01()">-</button>
+                        <span id="product01">0</span>
+                        <button class="custom" onclick="plus01()">+</button>
+                    </div>
+                </em>
+            </div>
+        </div>
+        <div class="drinksform">
+            <a href="">
+                <div class="drinksform-img form02"></div>
+            </a>
+            <div class="drinksform-text">
+                <h2>
+                    黑糖珍珠厚鮮奶
+                </h2>
+                <em>
+                    Craftsman’s Brown Sugar Series
+                    <div class="drinkcommentary">
+                        <br>
+                        經典黑糖珍珠鮮奶，蓋上特製法式奶蓋，雙重濃厚享受
+                    </div>
+                    <br>
+                    <div class="gotocart">
+                        <button class="customgotocart" onclick="delete02()">刪除訂單</button>
+                    </div>
+                    <div class="drinkbtn">
+                        <button class="custom" onclick="minus02()">-</button>
+                        <span id="product02">0</span>
+                        <button class="custom" onclick="plus02()">+</button>
+                    </div>
+                </em>
+            </div>
+        </div>
+        <div class="drinksform">
+            <a href="">
+                <div class="drinksform-img form03"></div>
+            </a>
+            <div class="drinksform-text">
+                <h2>
+                    姍姍紅茶拿鐵
+                </h2>
+                <em>
+                    Craftsman’s Brown Sugar Series
+                    <div class="drinkcommentary">
+                        <br>
+                        特選錫蘭紅茶為基底，與優質小農鮮奶完美交融，細緻茶香，口感圓潤醇厚
+                    </div>
+                    <br>
+                    <div class="gotocart">
+                        <button class="customgotocart" onclick="delete03()">刪除訂單</button>
+                    </div>
+                    <div class="drinkbtn">
+                        <button class="custom" onclick="minus03()">-</button>
+                        <span id="product03">0</span>
+                        <button class="custom" onclick="plus03()">+</button>
+                    </div>
+                </em>
+            </div>
+
+        </div>
+        <div class="drinksform">
+            <a href="">
+                <div class="drinksform-img form04"></div>
+            </a>
+            <div class="drinksform-text">
+                <h2>
+                    泰泰鮮奶茶
+                </h2>
+                <em>
+                    Craftsman’s Brown Sugar Series
+                    <div class="drinkcommentary">
+                        <br>
+                        特選錫蘭紅茶為基底，結合香醇小農鮮奶，異國風味醇厚而不膩口
+                    </div>
+                    <br>
+                    <div class="gotocart">
+                        <button class="customgotocart" onclick="delete04()">刪除訂單</button>
+                    </div>
+                    <div class="drinkbtn">
+                        <button class="custom" onclick="minus04()">-</button>
+                        <span id="product04">0</span>
+                        <button class="custom" onclick="plus04()">+</button>
+                    </div>
+                </em>
+            </div>
+
+        </div>
+        <div class="drinksform">
+            <a href="">
+                <div class="drinksform-img form05"></div>
+            </a>
+            <div class="drinksform-text">
+                <h2>
+                    橙香鮮萃
+                </h2>
+                <em>
+                    Craftsman’s Brown Sugar Series
+                    <div class="drinkcommentary">
+                        <br>
+                        以清新木梨茉莉為基底，搭配純正柳橙原汁，入口齒頰綻放鮮爽橙香芬芳
+                    </div>
+                    <br>
+                    <div class="gotocart">
+                        <button class="customgotocart" onclick="delete05()">刪除訂單</button>
+                    </div>
+                    <div class="drinkbtn">
+                        <button class="custom" onclick="minus05()">-</button>
+                        <span id="product05">0</span>
+                        <button class="custom" onclick="plus05()">+</button>
+                    </div>
+                </em>
+            </div>
+
+        </div>
+        <div class="drinksform">
+            <a href="">
+                <div class="drinksform-img form06"></div>
+            </a>
+            <div class="drinksform-text">
+                <h2>
+                    葡柚鮮萃
+                </h2>
+                <em>
+                    Craftsman’s Brown Sugar Series
+                    <div class="drinkcommentary">
+                        <br>
+                        清爽葡萄柚原汁，酸甜果粒入口，搭配清新不知春茶，齒頰間綻放鮮爽滋味
+                    </div>
+                    <br>
+                    <div class="gotocart">
+                        <button class="customgotocart" onclick="delete06()">刪除訂單</button>
+                    </div>
+                    <div class="drinkbtn">
+                        <button class="custom" onclick="minus06()">-</button>
+                        <span id="product06">0</span>
+                        <button class="custom" onclick="plus06()">+</button>
+                    </div>
+                </em>
+            </div>
+
+        </div>
+        <div class="drinksform">
+            <a href="">
+                <div class="drinksform-img form07"></div>
+            </a>
+            <div class="drinksform-text">
+                <h2>
+                    復刻紅茶
+                </h2>
+                <em>
+                    Craftsman’s Brown Sugar Series
+                    <div class="drinkcommentary">
+                        <br>
+                        經典古早味紅茶，決明子香氣飄散，清香順口唇齒留香。
+                    </div>
+                    <br>
+                    <div class="gotocart">
+                        <button class="customgotocart" onclick="delete07()">刪除訂單</button>
+                    </div>
+                    <div class="drinkbtn">
+                        <button class="custom" onclick="minus07()">-</button>
+                        <span id="product07">0</span>
+                        <button class="custom" onclick="plus07()">+</button>
+                    </div>
+                </em>
+            </div>
+
+        </div>
+        <div class="drinksform">
+            <a href="">
+                <div class="drinksform-img form08"></div>
+            </a>
+            <div class="drinksform-text">
+                <h2>
+                    不知春
+                </h2>
+                <em>
+                    Craftsman’s Brown Sugar Series
+                    <div class="drinkcommentary">
+                        <br>
+                        既有烏龍茶的韻味又有綠茶清新的香氣，入口清逸飄香
+                    </div>
+                    <br>
+                    <div class="gotocart">
+                        <button class="customgotocart" onclick="delete08()">刪除訂單</button>
+                    </div>
+                    <div class="drinkbtn">
+                        <button class="custom" onclick="minus08()">-</button>
+                        <span id="product08">0</span>
+                        <button class="custom" onclick="plus08()">+</button>
+                    </div>
+                </em>
+            </div>
+
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------ -->
+    <br><br><br>
+    <footer>
+        <div class="footarea">
+            <div class="contactbtn">
+                <a href="contact.html">聯絡我們 <i class="fa-solid fa-angles-right"></i></a>
+            </div>
+            <div class="foot-img">
+                <img src="img/logo-foot.png" alt="">
+            </div>
+            <div class="footerright">
+                <em>
+                    TRUEDAN ORIGINAL
+                </em>
+                <a href="https://www.facebook.com/truedantw/">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/truedantw/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://youtube.com/@truedan9528?si=VatrfhpE8zeQWaGp">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script-cart.js"></script>
+
+</html>
